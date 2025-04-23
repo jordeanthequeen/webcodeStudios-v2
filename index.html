@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webcode Studios 2.0</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    
+    <!-- Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#" class="logo">Webcode Studios</a>
+        <button class="mobile-menu-btn">
+            <span class="material-symbols-outlined">menu</span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div id="grid-container">
+            <canvas id="grid-canvas"></canvas>
+        </div>
+        
+        <div class="hero-content">
+            <h1>Smart Web Solutions for</h1>
+            <h1>Real-World Industries</h1>
+            <h3>Webcode Studios powers websites and platforms across rental housing, warehouse logistics, and eCommerce support — <i>all under one roof.</i></h3>
+        </div>
+        
+        <div class="scroll-down" id="scroll-down">
+            <span>Scroll Down</span>
+            <span class="material-symbols-outlined">expand_more</span>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-container">
+            <h2 class="section-title">About Us</h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Webcode Studios provides web design and development solutions to 
+                        <a href="https://www.amwestservices.com/" target="_blank">Amwest Services</a>, 
+                        <a href="https://www.amwestproperties.com/" target="_blank">Amwest Properties</a> and 
+                        <a href="https://www.amwestdistribution.com/" target="_blank">Amwest Distribution</a>.
+                    </p>
+                    <p>We contract with web designers and developers from all over the world. Outsourcing is the way of today and we use it for completing our projects in the most efficient ways possible.</p>
+                    <div class="divider"></div>
+                </div>
+                
+                <div class="team-grid">
+                    <!-- CTO and CIO -->
+                    <div class="team-card" id="card-1">
+                        <div class="card-grid-container">
+                            <canvas class="card-grid-canvas"></canvas>
+                        </div>
+                        <div class="icon-wrapper">
+                            <span class="material-symbols-outlined">computer</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>CTO and CIO</h3>
+                            <p>Each with over 30 years experience in the programming and IT fields, our CTO and CIO are hands on when it comes to final product delivery.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- System Administrator -->
+                    <div class="team-card" id="card-2">
+                        <div class="card-grid-container">
+                            <canvas class="card-grid-canvas"></canvas>
+                        </div>
+                        <div class="icon-wrapper">
+                            <span class="material-symbols-outlined">admin_panel_settings</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>System Administrator</h3>
+                            <p>Our Sys Admin will work with our contract designers and developers to help make sure everyone reaches their goals.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- IT Support Specialists -->
+                    <div class="team-card" id="card-3">
+                        <div class="card-grid-container">
+                            <canvas class="card-grid-canvas"></canvas>
+                        </div>
+                        <div class="icon-wrapper">
+                            <span class="material-symbols-outlined">support_agent</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>IT Support Specialists</h3>
+                            <p>We have in-house support staff to help facilitate any on-premise or cloud IT service needs.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-button-container">
+                    <a href="#contact" class="contact-button">Reach out to us <span class="material-symbols-outlined">arrow_forward</span></a>
+                </div>
+            </div>
+            
+            <div class="scroll-down about-scroll" id="scroll-services">
+                <span>Services</span>
+                <span class="material-symbols-outlined">expand_more</span>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Services Section -->
+    <section id="services">
+        <div class="services-container">
+            <h2 class="section-title">Contract Services (Pay Per Job)</h2>
+            <p class="services-tagline">If you are good at what you do then contract with us and get paid!</p>
+            
+            <div class="services-grid">
+                <!-- Back-End Development -->
+                <div class="service-card" id="service-1">
+                    <div class="card-grid-container">
+                        <canvas class="card-grid-canvas"></canvas>
+                    </div>
+                    <div class="service-icon">
+                        <span class="material-symbols-outlined">database</span>
+                    </div>
+                    <div class="service-content">
+                        <h3>Back-End Development</h3>
+                        <p>We work with many Back-End (Server-Side) programming technologies such as PHP, Laravel, Symfony, CodeIgniter, Node.js, Python and Django just to name a few.</p>
+                    </div>
+                </div>
+                
+                <!-- Front-End Development -->
+                <div class="service-card" id="service-2">
+                    <div class="card-grid-container">
+                        <canvas class="card-grid-canvas"></canvas>
+                    </div>
+                    <div class="service-icon">
+                        <span class="material-symbols-outlined">html</span>
+                    </div>
+                    <div class="service-content">
+                        <h3>Front-End Development</h3>
+                        <p>We work with many Front-End technologies such as HTML, CSS, Javascript, jQuery, Bootstrap, Less, Sass, Angular, React and Vue.js just to name a few.</p>
+                    </div>
+                </div>
+                
+                <!-- Full-Stack Development -->
+                <div class="service-card" id="service-3">
+                    <div class="card-grid-container">
+                        <canvas class="card-grid-canvas"></canvas>
+                    </div>
+                    <div class="service-icon">
+                        <span class="material-symbols-outlined">stacks</span>
+                    </div>
+                    <div class="service-content">
+                        <h3>Full-Stack Development</h3>
+                        <p>We work with many web stack technologies such as LAMP, RAILS, MEAN, MERN and PERN.</p>
+                    </div>
+                </div>
+                
+                <!-- SQL & NoSQL Databases -->
+                <div class="service-card" id="service-4">
+                    <div class="card-grid-container">
+                        <canvas class="card-grid-canvas"></canvas>
+                    </div>
+                    <div class="service-icon">
+                        <span class="material-symbols-outlined">storage</span>
+                    </div>
+                    <div class="service-content">
+                        <h3>SQL & NoSQL Databases</h3>
+                        <p>We work with both traditional SQL RDBMS and modern NoSQL databases. This includes MySQL, MariaDB, Oracle, PostgreSQL, SQLite, MongoDB, Cassandra, Elasticsearch, Amazon DynamoDB, Apache.</p>
+                    </div>
+                </div>
+                
+                <!-- Shopping Carts & CMS -->
+                <div class="service-card" id="service-5">
+                    <div class="card-grid-container">
+                        <canvas class="card-grid-canvas"></canvas>
+                    </div>
+                    <div class="service-icon">
+                        <span class="material-symbols-outlined">shopping_cart</span>
+                    </div>
+                    <div class="service-content">
+                        <h3>Shopping Carts & CMS</h3>
+                        <p>We work with many Shopping Carts and CMS Systems such as Magento, Woo Commerce, Shopify, Wordpress and Drupal just to name a few.</p>
+                    </div>
+                </div>
+                
+                <!-- Web & Graphics Design -->
+                <div class="service-card" id="service-6">
+                    <div class="card-grid-container">
+                        <canvas class="card-grid-canvas"></canvas>
+                    </div>
+                    <div class="service-icon">
+                        <span class="material-symbols-outlined">palette</span>
+                    </div>
+                    <div class="service-content">
+                        <h3>Web & Graphics Design</h3>
+                        <p>We work with many different types of Web Designers and Graphic Artists. We use all types of Adobe Creative Cloud Apps with Photoshop and Illustrator being at the top of the list.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-container">
+            <h2 class="section-title">Initiate Connection</h2>
+            
+            <div class="contact-grid">
+                <!-- Digital Map Side -->
+                <div class="contact-map">
+                    <div class="circuit-container">
+                        <canvas id="circuit-canvas"></canvas>
+                        <div class="location-dot" data-location="headquarters">
+                            <div class="pulse-ring"></div>
+                        </div>
+                        <div class="location-label" data-location="headquarters">Headquarters</div>
+                        
+                        <div class="location-dot" data-location="remote-1">
+                            <div class="pulse-ring"></div>
+                        </div>
+                        <div class="location-label" data-location="remote-1">Remote Office 1</div>
+                        
+                        <div class="location-dot" data-location="remote-2">
+                            <div class="pulse-ring"></div>
+                        </div>
+                        <div class="location-label" data-location="remote-2">Remote Office 2</div>
+                        
+                        <div class="location-dot" data-location="datacenter">
+                            <div class="pulse-ring"></div>
+                        </div>
+                        <div class="location-label" data-location="datacenter">Data Center</div>
+                    </div>
+                    
+                    <div class="terminal-output">
+                        <div class="terminal-header">
+                            <span>SYSTEM CONNECTION</span>
+                            <div class="terminal-controls">
+                                <span class="terminal-minimize"></span>
+                                <span class="terminal-maximize"></span>
+                                <span class="terminal-close"></span>
+                            </div>
+                        </div>
+                        <div class="terminal-content">
+                            <div class="line">$ <span class="typing-text">initiating connection...</span></div>
+                            <div class="line">$ <span class="typing-text">scanning local network...</span></div>
+                            <div class="line">$ <span class="typing-text">connection established</span></div>
+                            <div class="line">$ <span class="typing-text">welcome user...</span></div>
+                            <div class="line">$ <span class="typing-text">select contact method below</span></div>
+                            <div class="line blink-cursor">$ <span class="typing-text"></span>█</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form Side -->
+                <div class="contact-form-container">
+                    <div class="card-grid-container">
+                        <canvas class="card-grid-canvas"></canvas>
+                    </div>
+                    
+                    <h3 class="form-title">Encrypted Message Transmission</h3>
+                    
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <div class="input-wrapper">
+                                <span class="material-symbols-outlined">person</span>
+                                <input type="text" id="name" placeholder="Enter your identity" required>
+                                <div class="line-effect"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="input-wrapper">
+                                <span class="material-symbols-outlined">mail</span>
+                                <input type="email" id="email" placeholder="Communication channel (email)" required>
+                                <div class="line-effect"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="input-wrapper">
+                                <span class="material-symbols-outlined">work</span>
+                                <select id="service">
+                                    <option value="" disabled selected>Select service of interest</option>
+                                    <option value="backend">Back-End Development</option>
+                                    <option value="frontend">Front-End Development</option>
+                                    <option value="fullstack">Full-Stack Development</option>
+                                    <option value="database">Databases (SQL/NoSQL)</option>
+                                    <option value="cms">Shopping Carts & CMS</option>
+                                    <option value="design">Web & Graphics Design</option>
+                                </select>
+                                <div class="line-effect"></div>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="send-button">
+                            <span class="button-text">Transmit Message</span>
+                            <span class="material-symbols-outlined">send</span>
+                            <div class="button-glow"></div>
+                        </button>
+                    </form>
+                    
+                    <div class="contact-methods">
+                        <a href="mailto:info@webcodestudios.com" class="contact-method">
+                            <span class="material-symbols-outlined">mail</span>
+                            <span>support@webcodestudios.com</span>
+                        </a>
+                        <a href="tel:+1800WEBCODE" class="contact-method">
+                            <span class="material-symbols-outlined">phone</span>
+                            <span>+1 (702) 765-6624</span>
+                        </a>
+                        <a href="#" class="contact-method">
+                            <span class="material-symbols-outlined">location_on</span>
+                            <span>6320 W Cheyenne Ave. Suite 150 Las Vegas, NV 89108</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
